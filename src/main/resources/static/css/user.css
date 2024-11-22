@@ -1,0 +1,64 @@
+
+body {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    background: white;
+    color: black;
+}
+.button {
+    background-color: black; /* Green background */
+    border: none; /* No borders */
+    color: white; /* White text */
+    /* Padding */
+    padding: 5px 25px;
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 10px;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+button:active {
+    transform: scale(0.95); /* Shrinks the button slightly */
+    background-color: #45a049; /* Darker shade on click */
+    box-shadow: 0 5px #666;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.box {
+    background: #666666;
+    padding: 10px;
+    border-radius: 7px;
+}
+td, table {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    border: 5px solid black;
+}
+th {
+    background: darkgrey;
+    color: white;
+}
+input {
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+
+}

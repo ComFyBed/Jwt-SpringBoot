@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" th:href="@{/css/user.css}">
+    <script th:src="@{/js/source/jquery.js}"></script>
+    <script th:src="@{/js/user.js}"></script>
+</head>
+<body>
+<h1 id = "title"></h1>
+<button class="button" id="logout">Logout</button>
+<button class="button" id="all">Show All users</button>
+
+<table id="table">
+    <thead>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Here is where i'll put my data -->
+    </tbody>
+</table>
+</body>
+</html>

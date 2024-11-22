@@ -1,0 +1,40 @@
+
+body {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+        height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.button {
+    background-color: black; /* Green background */
+    border-radius: 15px;
+    border: none; /* No borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Some margin */
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+button:active {
+    transform: scale(0.95); /* Shrinks the button slightly */
+    background-color: #45a049; /* Darker shade on click */
+    box-shadow: 0 5px #666;
+}
+
+h1 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
